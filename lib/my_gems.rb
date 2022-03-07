@@ -22,6 +22,8 @@ module MyGems
     puts "\n"
     
     my_gems = Gems.gems.map { |gem| GemDTO.new(gem['name'], gem['downloads']) }
+    my_gems = my_gems.sort_by(&:downloads).reverse
+    
     gem_with_longest_name = my_gems.max_by { |gem| gem.name.length }
 
     my_gems.each do |gem|
