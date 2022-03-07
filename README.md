@@ -27,6 +27,12 @@ gem install my_gems_summary
 mygems
 ```
 
+<div align="center">
+    <img alt="usage" src="mygems.gif" />
+</div>
+
+
+
 ## Author
 
 👤 **Vinícius Kammradt**
