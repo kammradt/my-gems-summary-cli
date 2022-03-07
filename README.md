@@ -21,14 +21,6 @@
 gem install my_gems_summary
 ```
 
-## Setup your RubyGems account
-
-```sh
-blabla
-```
-
-
-
 ## Usage
 
 ```sh
