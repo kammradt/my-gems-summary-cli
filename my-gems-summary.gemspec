@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = 'my_gems_summary'
-  spec.version = '1.9'
+  spec.version = '2.0'
   spec.authors = ['Vinicius Kammradt']
   spec.email = ['vinicius.kammradt1@gmail.com']
 
