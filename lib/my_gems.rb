@@ -47,6 +47,9 @@ module MyGems
       name_output = gem.name.ljust(gem_with_longest_name(gems).name.length)
       puts "🛑 #{name_output} 🔝 #{gem.downloads} downloads"
     end
+    puts "\n"
+
+    puts "🎉 You're a star with #{gems.map(&:downloads).sum} total downloads 🎉"
 
     puts "\n"
     puts 'Bye! See you soon 👋👋👋'
